@@ -1,0 +1,18 @@
+[
+  {
+   "type": "image",
+   "id": "logo_images",
+   "default": {
+    "size_type": "auto",
+    "src": "",
+    "alt": null,
+    "loading": "lazy"
+   },
+   "resizable": true,
+   "responsive": true,
+   "show_loading": false,
+   "label": "Logo images",
+   "name": "logo_images",
+   "occurrence": {}
+  }
+ ]

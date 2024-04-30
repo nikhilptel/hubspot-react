@@ -1,0 +1,61 @@
+[
+  {
+   "type": "text",
+   "id": "heading_text",
+   "validation_regex": "",
+   "label": "Heading Text",
+   "name": "heading_text",
+   "default": "Lessons and insights from 8 years"
+  },
+  {
+   "type": "richtext",
+   "id": "pargraph_text",
+   "label": "Pargraph Text",
+   "name": "pargraph_text",
+   "default": "Where to grow your business as a photographer: site or social media?"
+  },
+  {
+   "type": "link",
+   "id": "button_link",
+   "default": {
+    "url": {
+     "content_id": null,
+     "href": "##",
+     "type": "EXTERNAL"
+    },
+    "open_in_new_tab": false,
+    "no_follow": false
+   },
+   "supported_types": [
+    "EXTERNAL",
+    "CONTENT",
+    "FILE",
+    "EMAIL_ADDRESS",
+    "BLOG",
+    "CALL_TO_ACTION",
+    "PHONE_NUMBER",
+    "PAYMENT"
+   ],
+   "label": "Button Link",
+   "name": "button_link"
+  },
+  {
+   "type": "image",
+   "id": "image_field",
+   "default": {
+    "size_type": "auto",
+    "src": "https://476360.fs1.hubspotusercontent-na1.net/hubfs/476360/Illustration.png",
+    "alt": "Illustration",
+    "loading": "lazy",
+    "width": 391,
+    "height": 407,
+    "max_width": 391,
+    "max_height": 407
+   },
+   "resizable": true,
+   "responsive": true,
+   "show_loading": false,
+   "label": "Image",
+   "name": "image_field"
+  }
+ ]

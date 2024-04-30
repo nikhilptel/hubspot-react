@@ -1,0 +1,33 @@
+.banner-section {
+    padding: 96px 0;
+    background-color: #F5F7FA;
+  }
+  .banner-content-side {
+    width: 66%;
+    align-items: center;
+  }
+  .banner-image-side {
+    width: 34%;
+    max-width: 391px;
+  }
+  .inner-banner-image-side img {
+    width: 100%;
+  }
+  .inner-banner-content-side {
+    padding: 0 104px 0 0;
+  }
+  .green {
+    color: #4CAF4F;
+  }
+  .banner-heading {
+    padding: 0 0 16px 0;
+  }
+  .banner-text {
+    padding: 0 0 32px 0;
+  }
+  .banner-slider-item {
+    display: flex!important;
+  }
+  .banner-btn {
+    display: inline;
+  }

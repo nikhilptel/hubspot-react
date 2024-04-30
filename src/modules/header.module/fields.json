@@ -1,0 +1,118 @@
+[
+    {
+     "type": "image",
+     "id": "logo_image",
+     "default": {
+      "size_type": "auto",
+      "src": "",
+      "alt": null,
+      "loading": "lazy"
+     },
+     "resizable": true,
+     "responsive": true,
+     "show_loading": false,
+     "label": "logo Image",
+     "name": "logo_image"
+    },
+    {
+     "type": "link",
+     "id": "logo_link",
+     "default": {
+      "url": {
+       "content_id": null,
+       "href": "##",
+       "type": "EXTERNAL"
+      },
+      "open_in_new_tab": false,
+      "no_follow": false
+     },
+     "supported_types": [
+      "EXTERNAL",
+      "CONTENT",
+      "FILE",
+      "EMAIL_ADDRESS",
+      "BLOG",
+      "CALL_TO_ACTION",
+      "PHONE_NUMBER",
+      "PAYMENT"
+     ],
+     "label": "Logo Link",
+     "name": "logo_link"
+    },
+    {
+        "type": "simplemenu",
+        "id": "header_menu_one",
+        "default": [
+         {
+          "isPublished": false,
+          "pageLinkId": null,
+          "contentGroupId": null,
+          "pageLinkName": null,
+          "isDeleted": null,
+          "categoryId": null,
+          "subCategory": null,
+          "contentType": null,
+          "state": null,
+          "linkLabel": "Home ",
+          "linkUrl": null,
+          "linkParams": null,
+          "linkTarget": null,
+          "type": "NO_LINK",
+          "children": []
+         },
+         {
+          "isPublished": false,
+          "pageLinkId": null,
+          "contentGroupId": null,
+          "pageLinkName": null,
+          "isDeleted": null,
+          "categoryId": null,
+          "subCategory": null,
+          "contentType": null,
+          "state": null,
+          "linkLabel": "Home2",
+          "linkUrl": null,
+          "linkParams": null,
+          "linkTarget": null,
+          "type": "NO_LINK",
+          "children": []
+         },
+         {
+          "isPublished": false,
+          "pageLinkId": null,
+          "contentGroupId": null,
+          "pageLinkName": null,
+          "isDeleted": null,
+          "categoryId": null,
+          "subCategory": null,
+          "contentType": null,
+          "state": null,
+          "linkLabel": "Home3",
+          "linkUrl": null,
+          "linkParams": null,
+          "linkTarget": null,
+          "type": "NO_LINK",
+          "children": []
+         },
+         {
+          "isPublished": false,
+          "pageLinkId": null,
+          "contentGroupId": null,
+          "pageLinkName": null,
+          "isDeleted": null,
+          "categoryId": null,
+          "subCategory": null,
+          "contentType": null,
+          "state": null,
+          "linkLabel": "Button1",
+          "linkUrl": "##",
+          "linkParams": null,
+          "linkTarget": null,
+          "type": "URL_LINK",
+          "children": []
+         }
+        ],
+        "label": "Header menu",
+        "name": "header_menu_one"
+       }
+   ]
