@@ -40,79 +40,11 @@
      "name": "logo_link"
     },
     {
-        "type": "simplemenu",
-        "id": "header_menu_one",
-        "default": [
-         {
-          "isPublished": false,
-          "pageLinkId": null,
-          "contentGroupId": null,
-          "pageLinkName": null,
-          "isDeleted": null,
-          "categoryId": null,
-          "subCategory": null,
-          "contentType": null,
-          "state": null,
-          "linkLabel": "Home ",
-          "linkUrl": null,
-          "linkParams": null,
-          "linkTarget": null,
-          "type": "NO_LINK",
-          "children": []
-         },
-         {
-          "isPublished": false,
-          "pageLinkId": null,
-          "contentGroupId": null,
-          "pageLinkName": null,
-          "isDeleted": null,
-          "categoryId": null,
-          "subCategory": null,
-          "contentType": null,
-          "state": null,
-          "linkLabel": "Home2",
-          "linkUrl": null,
-          "linkParams": null,
-          "linkTarget": null,
-          "type": "NO_LINK",
-          "children": []
-         },
-         {
-          "isPublished": false,
-          "pageLinkId": null,
-          "contentGroupId": null,
-          "pageLinkName": null,
-          "isDeleted": null,
-          "categoryId": null,
-          "subCategory": null,
-          "contentType": null,
-          "state": null,
-          "linkLabel": "Home3",
-          "linkUrl": null,
-          "linkParams": null,
-          "linkTarget": null,
-          "type": "NO_LINK",
-          "children": []
-         },
-         {
-          "isPublished": false,
-          "pageLinkId": null,
-          "contentGroupId": null,
-          "pageLinkName": null,
-          "isDeleted": null,
-          "categoryId": null,
-          "subCategory": null,
-          "contentType": null,
-          "state": null,
-          "linkLabel": "Button1",
-          "linkUrl": "##",
-          "linkParams": null,
-          "linkTarget": null,
-          "type": "URL_LINK",
-          "children": []
-         }
-        ],
-        "label": "Header menu",
-        "name": "header_menu_one"
-       }
+         "type": "menu",
+         "id": "83da7f90-0aa1-55e3-76f0-649c2eee5329",
+         "label": "Menu",
+         "name": "menu_field",
+         "default": 107832766824
+        }
+      
    ]

@@ -1,0 +1,54 @@
+[
+  {
+   "type": "text",
+   "id": "heading",
+   "validation_regex": "",
+   "label": "Heading",
+   "name": "heading"
+  },
+  {
+   "type": "text",
+   "id": "subtitle",
+   "validation_regex": "",
+   "label": "Subtitle",
+   "name": "subtitle"
+  },
+  {
+   "type": "group",
+   "id": "card_image",
+   "label": "Card",
+   "children": [
+    {
+     "type": "image",
+     "id": "card",
+     "default": {
+      "size_type": "auto",
+      "src": "",
+      "alt": null,
+      "loading": "lazy"
+     },
+     "resizable": true,
+     "responsive": true,
+     "show_loading": false,
+     "label": "Card Image",
+     "name": "card_image"
+    },
+    {
+     "type": "text",
+     "id": "card_title",
+     "validation_regex": "",
+     "label": "Card Title",
+     "name": "card_title"
+    },
+    {
+     "type": "richtext",
+     "id": "card_paragraph_text",
+     "label": "Card Paragraph Text",
+     "name": "card_paragraph_text"
+    }
+   ],
+   "name": "card",
+   "default": [],
+   "occurrence": {}
+  }
+ ]

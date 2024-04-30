@@ -1,0 +1,249 @@
+[
+  {
+   "type": "image",
+   "id": "image_field",
+   "default": {
+    "size_type": "auto",
+    "src": "",
+    "alt": null,
+    "loading": "lazy"
+   },
+   "resizable": true,
+   "responsive": true,
+   "show_loading": false,
+   "label": "Image",
+   "name": "image_field"
+  },
+  {
+   "type": "text",
+   "id": "heading",
+   "validation_regex": "",
+   "label": "Heading",
+   "name": "heading"
+  },
+  {
+   "type": "richtext",
+   "id": "paragraph_text",
+   "label": "Paragraph Text",
+   "name": "paragraph_text"
+  },
+  {
+   "type": "link",
+   "id": "link_url",
+   "default": {
+    "url": {
+     "content_id": null,
+     "type": "EXTERNAL",
+     "href": ""
+    },
+    "open_in_new_tab": false,
+    "no_follow": false
+   },
+   "supported_types": [
+    "EXTERNAL",
+    "CONTENT",
+    "FILE",
+    "EMAIL_ADDRESS",
+    "BLOG",
+    "CALL_TO_ACTION",
+    "PHONE_NUMBER",
+    "PAYMENT"
+   ],
+   "label": "Button Url",
+   "name": "link_url"
+  },
+  {
+   "type": "text",
+   "id": "button_text",
+   "validation_regex": "",
+   "label": "Button Text",
+   "name": "button_text"
+  },
+  {
+   "type": "boolean",
+   "id": "swap_image_right",
+   "default": false,
+   "display": "toggle",
+   "label": "Swap Image Right",
+   "name": "swap_image_right"
+  },
+  {
+    "children": [
+     {
+      "choices": [
+       [
+        "custom-button",
+        "Custom Button"
+       ],
+       [
+        "cta-button",
+        "CTA Button"
+       ]
+      ],
+      "default": "custom-button",
+      "display": "select",
+      "display_width": null,
+      "id": "choose_custom_button_or_cta_button",
+      "label": "Choose Custom Button or CTA Button",
+      "locked": false,
+      "multiple": false,
+      "name": "choose_custom_button_or_cta_button",
+      "preset": null,
+      "reordering_enabled": true,
+      "required": false,
+      "type": "choice"
+     },
+     {
+      "children": [
+       {
+        "allow_new_line": false,
+        "default": "Learn More",
+        "display_width": null,
+        "id": "button_name",
+        "label": "Button Name",
+        "locked": false,
+        "name": "button_name",
+        "required": false,
+        "show_emoji_picker": false,
+        "type": "text",
+        "validation_regex": ""
+       },
+       {
+        "default": {
+         "url": {
+          "content_id": null,
+          "href": "##",
+          "type": "EXTERNAL"
+         },
+         "open_in_new_tab": false,
+         "no_follow": false
+        },
+        "display_width": null,
+        "id": "link_field",
+        "label": "Link",
+        "locked": false,
+        "name": "link_field",
+        "required": false,
+        "show_advanced_rel_options": false,
+        "supported_types": [
+         "EXTERNAL",
+         "CONTENT",
+         "FILE",
+         "EMAIL_ADDRESS",
+         "BLOG",
+         "CALL_TO_ACTION",
+         "PHONE_NUMBER",
+         "PAYMENT"
+        ],
+        "type": "link"
+       },
+       {
+        "choices": [
+         [
+          "button--primary",
+          "Primary"
+         ],
+         [
+          "button--secondary",
+          "Secondary"
+         ],
+         [
+          "button--simple",
+          "Simple"
+         ]
+        ],
+        "display": "select",
+        "display_width": null,
+        "id": "button_style",
+        "label": "Button Style",
+        "locked": false,
+        "multiple": false,
+        "name": "button_style",
+        "preset": null,
+        "reordering_enabled": true,
+        "required": false,
+        "type": "choice"
+       },
+       {
+        "choices": [
+         [
+          "button--regular",
+          "Regular"
+         ],
+         [
+          "button--small",
+          "Small"
+         ],
+         [
+          "button--large",
+          "Large"
+         ]
+        ],
+        "display": "select",
+        "display_width": null,
+        "id": "button_size",
+        "label": "Button Size",
+        "locked": false,
+        "multiple": false,
+        "name": "button_size",
+        "preset": null,
+        "reordering_enabled": true,
+        "required": false,
+        "type": "choice"
+       }
+      ],
+      "default": {
+       "button_name": "Learn More",
+       "link_field": {
+        "url": {
+         "content_id": null,
+         "href": "##",
+         "type": "EXTERNAL"
+        },
+        "open_in_new_tab": false,
+        "no_follow": false
+       }
+      },
+      "display_width": null,
+      "expanded": false,
+      "id": "add_button",
+      "label": "Add Button",
+      "locked": false,
+      "name": "add_button",
+      "required": false,
+      "tab": "CONTENT",
+      "type": "group",
+      "visibility": {
+       "controlling_field_path": "add_buttons.choose_custom_button_or_cta_button",
+       "controlling_value_regex": "custom-button",
+       "operator": "EQUAL"
+      }
+     },
+     {
+      "display_width": null,
+      "id": "add_cta",
+      "label": "Add CTA",
+      "locked": false,
+      "name": "add_cta",
+      "required": false,
+      "type": "cta",
+      "visibility": {
+       "controlling_field_path": "add_buttons.choose_custom_button_or_cta_button",
+       "controlling_value_regex": "cta-button",
+       "operator": "EQUAL"
+      }
+     }
+    ],
+    "default": [],
+    "display_width": null,
+    "expanded": false,
+    "id": "add_buttons",
+    "label": "Add Buttons",
+    "locked": false,
+    "name": "add_buttons",
+    "occurrence": {},
+    "required": false,
+    "tab": "CONTENT",
+    "type": "group"
+   }
+ ]

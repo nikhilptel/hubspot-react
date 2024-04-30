@@ -23,17 +23,23 @@ function logoSlider({ moduleData }) {
       {
         breakpoint: 768,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 3,
         },
       },
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2,
         },
       },
     ],
   };
+
+  const generateSrcSet = (src) => {
+    const widths = [254, 508, 762, 1016, 1270, 1850]; // Define your desired widths
+    return widths.map(width => `${src}?width=${width} ${width}w`).join(', ');
+  };
+
   return (
     
     <div className="logo-slider">
@@ -41,7 +47,7 @@ function logoSlider({ moduleData }) {
       {moduleData.logo_images.map((item, index) => (
          <div key={index}>
         <a key={index} href={item.url}>
-          <img src={item.src} alt={item.alt} />
+          <img src={item.src} alt={item.alt}  srcSet={generateSrcSet(item.src)} />
         </a>
         </div>
       ))}
